@@ -1,1 +1,252 @@
+Task Level (Beginner): Do 5 out of 9
+1. Variables
+1. Create a variable named pi and store the value 22/7 in it.
+Now check the data type of this variable.
+2. Create a variable called for and assign it a value 4. See what
+happens and find out the reason behind the behavior that you
+see.
+3. Store the principal amount, rate of interest, and time in
+different variables and then calculate the Simple Interest for 3
+years. Formula: Simple Interest = P x R x T / 100
 
+
+
+2. Numbers
+1. Write a function that takes two arguments, 145 and 'o'
+, and
+uses the `format` function to return a formatted string. Print the
+result. Try to identify the representation used.
+2. In a village, there is a circular pond with a radius of 84 meters.
+Calculate the area of the pond using the formula: Circle Area = π
+r^2. (Use the value 3.14 for π) Bonus Question: If there is exactly
+1.4 liters of water in a square meter, what is the total amount of
+water in the pond? Print the answer without any decimal point in
+it. Hint: Circle Area = π r^2 Water in the pond = Pond Area
+Water per Square Meter
+3. If you cross a 490meterlong street in 7 minutes, calculate your
+speed in meters per second. Print the answer without any decimal
+point in it. Hint: Speed = Distance / Time
+
+
+
+3. List
+1. You have a list of superheroes representing the Justice
+League. justice_league = ["Superman"
+,
+"Batman"
+,
+"Wonder
+Woman"
+,
+"Flash"
+,
+"Aquaman"
+,
+"Green Lantern"]
+Perform the following tasks:
+1. Calculate the number of members in the Justice League.
+2. Batman recruited Batgirl and Nightwing as new members.
+Add them to your list.
+3. Wonder Woman is now the leader of the Justice League.
+Move her to the beginning of the list.
+4. Aquaman and Flash are having conflicts, and you need to
+separate them. Choose either "Green Lantern" or "Superman"
+and move them in between Aquaman and Flash.
+5. The Justice League faced a crisis, and Superman decided to
+assemble a new team. Replace the existing list with the following
+new members: "Cyborg"
+,
+"Shazam"
+,
+"Hawkgirl"
+,
+"Martian
+Manhunter"
+,
+"Green Arrow".
+6. Sort the Justice League alphabetically. The hero at the 0th
+index will become the new leader.
+(BONUS: Can you predict who the new leader will be?)
+Your task is to write Python code to perform these operations on
+the "justice_league" list. Display the list at each step to observe
+the changes.
+
+
+
+
+4. If Condition
+1. Write a program to determine the BMI Category based on user input.
+Ask the user to:
+Enter height in meters
+Enter weight in kilograms
+Calculate BMI using the formula: BMI = weight / (height)2
+Use the following categories:
+If BMI is 30 or greater, print "Obesity"
+If BMI is between 25 and 29, print "Overweight"
+If BMI is between 18.5 and 25, print "Normal"
+If BMI is less than 18.5, print "Underweight"
+Example:
+Enter height in meters: 1.75
+Enter weight in kilograms: 70
+Output: "Normal"
+2. Write a program to determine which country a city belongs to. Given
+list of cities per country:
+Australia = ["Sydney"
+,
+"Melbourne"
+,
+"Brisbane"
+,
+"Perth"]
+UAE = ["Dubai"
+,
+"Abu Dhabi"
+,
+"Sharjah"
+,
+"Ajman"]
+India = ["Mumbai"
+,
+"Bangalore"
+,
+"Chennai"
+,
+"Delhi"]
+Ask the user to enter a city name and print the corresponding country.
+Example:
+Enter a city name: "Abu Dhabi"
+Output: "Abu Dhabi is in UAE"
+4. If Condition (Continued...)
+3. Write a program to check if two cities belong to the same country.
+Ask the user to enter two cities and print whether they belong to the
+same country or not.
+Example:
+Enter the first city: "Mumbai"
+Enter the second city: "Chennai"
+Output: "Both cities are in India"
+Example:
+Enter the first city: "Sydney"
+Enter the second city: "Dubai"
+Output: "They don't belong to the same country"
+
+
+
+5. For Loop:
+1. Using a for loop, simulate rolling a sixsided die multiple times (at least 20
+times).
+Count and print the following statistics:
+How many times you rolled a 6
+How many times you rolled a 1
+How many times you rolled two 6s in a row
+2. Imagine you are doing a workout routine, and you have to complete 100
+jumping jacks.
+Write a program that:
+Asks you to perform 10 jumping jacks at a time.
+After each set, it asks, "Are you tired?"
+If you reply "yes" or "y," it should ask if you want to skip the remaining sets.
+If you reply "yes" or "y," it should break and print, "You completed a total of
+jumping jacks."
+For example, if you did only 30 jumping jacks and answered "yes," the program
+will break and print, "You completed a total of 30 jumping jacks."
+If you reply "no" or "n," it should continue and display how many jumping jacks
+are remaining. After that, ask you again, "Are you tired?"
+For example, if you answered "no," it should display that 70 jumping jacks are
+remaining and ask you again, "Are you tired?"
+If you reply "no" or "n," it should continue and display how many jumping jacks
+are remaining. After that, ask you again, "Are you tired?"
+For example, if you answered "no," it should display that 70 jumping jacks are
+remaining and ask you again, "Are you tired?"
+If you complete all 100 jumping jacks, it should print, "Congratulations! You
+completed the workout," and stop the program
+
+
+
+6. Dictionary
+1. Create a list of your friends' names. The list should have at least 5 names.
+Create a list of tuples. Each tuple should contain a friend's name and the length
+of the name.
+For example, if someone’s name is Aditya, the tuple would be: ('Aditya', 6)
+2.You and your partner are planning a trip, and you want to track expenses.
+Create two dictionaries, one for your expenses and one for your partner's
+expenses. Each dictionary should contain at least 5 expense categories and their
+corresponding amounts.
+For example:
+Your expenses
+your_expenses = {
+"Hotel": 1200,
+"Food": 800,
+"Transportation": 500,
+"Attractions": 300,
+"Miscellaneous": 200
+}
+Your partner's expenses
+partner_expenses = {
+"Hotel": 1000,
+"Food": 900,
+"Transportation": 600,
+"Attractions": 400,
+"Miscellaneous": 150
+}
+Calculate the total expenses for each of you and print the results.
+Determine who spent more money overall and print the result.
+Find out the expense category where there is a significant difference in spending
+between you and your partner.
+Print the category and the difference.
+
+
+
+
+7.File handiling:
+1. student_marks.csv contains the marks and other details for some students.
+Write a python program to:
+1. Open the file in read mode
+2. Create a dictionary from the given data
+3. Add a new field to the dictionary total\_marks and store the total marks of
+the students.
+4. Add a new field to the dictionary Average and store the average marks of the
+students.
+5. Create a new file and write this information to the new file
+(https://www.kaggle.com/arunkumar413/studentmarks)
+2. Create a new CSV file with the newly created total marks and average marks.
+
+
+
+8. Classes and Objects:
+1.Avengers is a Marvel’s American Superheroes team, Now you want to
+showcase your programming skills by representing the Avengers team using
+classes. Create a class called Avenger and create these six superheroes using this
+class.
+2. super_heroes = ["Captain America", "Iron Man", "Black Widow", "Hulk",
+"Thor", "Hawkeye"]
+3. Your Avenger class should have these properties:
+1. Name
+2. Age
+3. Gender
+4. Super Power
+5. Weapon
+4. Captain America has Super strength, Iron Man has Technology, Black Widow
+is superhuman, Hulk has Unlimited Strength, Thor has super Energy and
+Hawkeye has fighting skills as superpowers.
+5. Weapons: Shield, Armor, Batons, No Weapon for hulk, Mjölnir, Bow, and
+Arrows
+6. Create methods to get the information about each superhero
+7. Create a method is_leader() which will tell if the superhero is a leader or not.
+
+
+
+9. Inheritence
+1. Create inheritance using MobilePhone as base class and Apple &
+Samsung as child class
+1. The base class should have properties:
+1. ScreenType = Touch Screen
+2. NetworkType = 4G/5G
+3. DualSim = True or False
+4. FrontCamera = (5MP/8MP/12MP/16MP)
+5. rearCamera = (8MP/12MP/16MP/32MP/48MP)
+6. RAM = (2GB/3GB/4GB)
+7. Storage = (16GB/32GB/64GB)
+2. Create basic mobile phone functionalities in the classes like:
+make_call, recieve_call, take_a_picture, etc.
+3. Use super() constructor for calling parent class’s constructor
+4. Make some objects of Apple class with different properties
+5. Make some objects of Samsung class with different propertie
