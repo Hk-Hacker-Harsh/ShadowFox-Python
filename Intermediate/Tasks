@@ -1,1 +1,15 @@
+Hangman: Implement the wordguessing game with visual progress and hints.
 
+Word Selection: Choose a random word from a predefined list.
+Game Setup: Initialize variables for the chosen word, guessed letters, incorrect
+guesses, and maximum allowed attempts.
+Display Interface: Create a simple text-based interface showing the hangman
+figure and the partially revealed word.
+User Input: Prompt the player to guess a letter and validate the input.
+Check Guess: Validate the guessed letter against the word and update the
+interface accordingly.
+Win/Loss Conditions: Continuously check for win or loss conditions.
+Game Loop: Implement a loop to keep the game running until the player wins or
+loses.
+Play Again: Offer the option to play again once the game concludes. Reset the
+game state if chosen
