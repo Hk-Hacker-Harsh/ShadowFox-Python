@@ -1,1 +1,30 @@
+Present your findings on the final project, where you are tasked with
+creating a Jupyter notebook from scratch and conducting a data
+analysis on a dataset of your choice. This comprehensive process
+involves selecting a dataset that piques your interest, exploring its
+contents within a Jupyter notebook, and identifying research questions
+that the data might help answer.
 
+
+Guidelines:
+1. Begin by finding a dataset that piques your interest. You can choose
+from a list of places with valuable datasets provided in our reading, or
+feel free to select data related to your hobbies or work if it is publicly
+available.
+2. Explore the dataset in a Jupyter notebook, gaining a deep
+understanding of its contents. This exploration phase will help you
+identify the types of questions that can be addressed using the available
+data. Remember that data cleaning may be necessary during this step.
+3. Based on your exploration, narrow down and define a research
+question. Consider what specific information or insights you want to
+derive from the dataset. Your research question should be tailored to
+the characteristics of the data you have chosen.
+4. Utilize various visualization techniques to analyze the dataset and
+find a solution for your research problem. Visualization is a powerful
+tool for uncovering patterns, trends, and relationships within the data.
+5. Throughout this process, pay close attention to the project description
+and grading rubric to ensure that your work aligns with the project's
+requirements and expectations.
+6. By the end of this week, you should have not only selected a dataset
+and formulated a clear research question but also utilized visualizations
+to derive meaningful insights and solutions to your research problem.
